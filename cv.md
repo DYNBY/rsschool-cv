@@ -1,5 +1,5 @@
 # **Dyomin Yuri**
-![фото](rsschool-cv\foto.jpg)
+![фото](https://DYNBY.github.io/rsschool-cv/foto.jpg)
 ## **My contact info:**
 * **Phone:** +375297038129
 * **E-mail:** dyominyuri@gmail.com
