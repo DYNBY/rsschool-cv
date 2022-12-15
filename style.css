@@ -1,3 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+    transition: .3s;
+    color: #301B2C;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.nav-link:hover {
+    background-color: #dac5d6;
+}
 body, html {
     margin: 0px;
     padding: 0px;
@@ -31,13 +54,18 @@ body, html {
 .name {
     text-align: left;
     color: #301B2C;
-    font:normal normal bold 48px/48px Veranda, sans-serif;
+    font:normal normal bold 48px/24px Veranda, sans-serif;
     margin-top: 100px;
 }
 .pro {
     text-align: left;
     color: #301B2C;
     font:italic normal bold 24px/24px Veranda, sans-serif;
+}
+.course {
+    text-align: left;
+    color: #301B2C;
+    font:normal normal bold 16px/16px Veranda, sans-serif;
 }
 .left {
     width: 250px;
@@ -49,6 +77,7 @@ body, html {
     float: left;
 }
 .right {
+    padding: 0px;
     width: 980px;
     float: left;
     font:italic normal normal 24px/24px Veranda, sans-serif;
@@ -63,4 +92,20 @@ footer {
     color: #301B2C;
     text-align: center;
     font: normal normal normal 12px/12px Veranda, sans-serif; color: #301B2C;
+}
+.logo {
+    height: 50px;
+    width: 100px;
+}
+.liststyle {
+    padding: 0px;
+    list-style-position: inside;
+}
+A:link { 
+    text-decoration: none; 
+} 
+nav {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
 }
